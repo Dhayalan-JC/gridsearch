@@ -53,7 +53,7 @@ class ImageResults extends Component {
             <div className="col-lg-12 mt-2 pt-2">
                 {imageList}
                 <Dialog
-                    className="modal"
+                    className="dialogue_popup"
                     actions={actions}
                     modal={false}
                     open={this.state.open}
